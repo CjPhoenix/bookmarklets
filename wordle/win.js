@@ -25,7 +25,7 @@ stats.averageGuesses = guesses.reduce((a,b) => a + b, 0) / guesses.length;
 stats.currentStreak += 1;
 stats.maxStreak = Math.max(stats.currentStreak, stats.maxStreak);
 stats.gamesPlayed += 1;
-stats.guesses[0] += 1;
+stats.guesses['1'] += 1;
 stats.gamesWon += 218;
 
 // Modify Stored Variables
