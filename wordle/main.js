@@ -1,4 +1,4 @@
-switch (documents.domain) {
+switch (document.domain) {
     case 'www.nytimes.com':
         execute('nyt');
         
